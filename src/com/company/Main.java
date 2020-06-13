@@ -11,7 +11,7 @@ public class Main {
                 minus = true;
                 continue;
             }
-            if (counts.length > 0) {
+            if (minus) {
                 sum = (sum + task)/8;
             }
         }
